@@ -1,7 +1,7 @@
 fun main() {
     val letter_list = listOf <Char> ('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z')
-    var a:Int = 0
     val letter_list_long=letter_list.size
+    var a:Int = 0
     
     while (a<letter_list_long){
         a +=1

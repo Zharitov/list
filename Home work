@@ -1,0 +1,12 @@
+fun main() {
+    val letter_list = listOf <Char> ('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z')
+    var a:Int = 0
+    val letter_list_long=letter_list.size
+    
+    while (a<letter_list_long){
+        a +=1
+        if (a% 4 == 0){
+            var b = a - 1
+        println(letter_list[b])}
+    }
+}
